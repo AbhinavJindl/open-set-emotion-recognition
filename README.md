@@ -8,3 +8,6 @@ Emotion recognition methods often categorize emotional expressions into distinct
 conda create -n .oser_env python=3.10
 pip install -r requirements.txt
 ```
+### MELD audio only uploaded on drive
+
+https://drive.google.com/file/d/18wlUfq5Jrt9VckYBEVn8AKyd3bSuNEYP/view?usp=sharing
