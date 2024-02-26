@@ -11,3 +11,7 @@ pip install -r requirements.txt
 ### MELD audio only uploaded on drive
 
 https://drive.google.com/file/d/18wlUfq5Jrt9VckYBEVn8AKyd3bSuNEYP/view?usp=sharing
+
+### IEMOCAP only-relevant-information dataset uploaded on drive
+
+https://drive.google.com/file/d/1l4jrJ0OdH70RATv7g2o7h3oPln_FIXwz/view?usp=sharing
