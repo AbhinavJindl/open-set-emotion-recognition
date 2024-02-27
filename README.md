@@ -19,3 +19,11 @@ https://drive.google.com/file/d/1l4jrJ0OdH70RATv7g2o7h3oPln_FIXwz/view?usp=shari
 ### MELD Log Spectrogram images for train split
 
 https://drive.google.com/file/d/1ScAFcfnePP9FlYECLNis41S0qNhspTbS/view?usp=sharing
+
+### MELD Log spectrogram for dev and test
+
+https://drive.google.com/drive/folders/1gjhO8-XQnOhDGxtOVM1RcENZl7bduevu?usp=sharing
+
+### MELD spectrogram for train, test,dev
+
+https://drive.google.com/drive/folders/1vX7iTyHedFN7-lj9TgE-4QLIziZTppaR?usp=drive_link
