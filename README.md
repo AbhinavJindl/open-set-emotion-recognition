@@ -15,3 +15,7 @@ https://drive.google.com/file/d/18wlUfq5Jrt9VckYBEVn8AKyd3bSuNEYP/view?usp=shari
 ### IEMOCAP only-relevant-information dataset uploaded on drive
 
 https://drive.google.com/file/d/1l4jrJ0OdH70RATv7g2o7h3oPln_FIXwz/view?usp=sharing
+
+### MELD Log Spectrogram images for train split
+
+https://drive.google.com/file/d/1ScAFcfnePP9FlYECLNis41S0qNhspTbS/view?usp=sharing
