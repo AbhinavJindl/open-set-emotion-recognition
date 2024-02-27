@@ -7,3 +7,7 @@ matplotlib==3.8.3
 torch==2.2.0
 scikit-learn
 tqdm==4.66.2
+torchaudio==2.2.0
+torchvision
+av
+transformers
