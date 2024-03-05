@@ -11,3 +11,4 @@ torchaudio==2.2.0
 torchvision
 av
 transformers
+sentence-transformers
