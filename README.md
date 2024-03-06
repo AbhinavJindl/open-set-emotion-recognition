@@ -27,3 +27,7 @@ https://drive.google.com/drive/folders/1gjhO8-XQnOhDGxtOVM1RcENZl7bduevu?usp=sha
 ### MELD spectrogram for train, test,dev
 
 https://drive.google.com/drive/folders/1vX7iTyHedFN7-lj9TgE-4QLIziZTppaR?usp=drive_link
+
+### IEMOCAP Spectrograms
+
+https://drive.google.com/file/d/1LbmNgJmDPEwi76iMjub8Xo8uTrfjcn1W/view?usp=sharing
