@@ -31,7 +31,3 @@ https://drive.google.com/drive/folders/1vX7iTyHedFN7-lj9TgE-4QLIziZTppaR?usp=dri
 ### IEMOCAP Spectrograms
 
 https://drive.google.com/file/d/1LbmNgJmDPEwi76iMjub8Xo8uTrfjcn1W/view?usp=sharing
-
-### IEMOCAP FULL DATA
-
-https://drive.google.com/file/d/1kN0egS2rT-xzw2wjzYA9G5YziK7Ae5Dd/view?usp=sharing
