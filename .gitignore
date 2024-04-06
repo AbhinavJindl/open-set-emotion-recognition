@@ -162,3 +162,5 @@ cython_debug/
 # Datasets
 MELD_Dataset/
 IEMOCAP_Dataset/
+IEMOCAP*
+MELD*
