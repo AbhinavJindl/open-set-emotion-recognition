@@ -6,6 +6,9 @@ import time
 import numpy as np
 from scipy import signal
 from scipy.io import wavfile
+from torch_audiomentations import Compose, Gain, AddColoredNoise, PitchShift, PeakNormalization
+import torch
+import soundfile as sf
 
 def create_spectrogram_helper(filename, audio_file_path, output_file_path):
     y, sr = librosa.load(audio_file_path)
@@ -116,3 +119,22 @@ def create_log_spectrograms(iemocap_log_spectrogram_dir, audio_files):
                 time.sleep(throttle_delay)
 
     print(f"Batch conversion completed for log spectrograms. Processed {processed_files_count} files.")
+
+def augment_audio_and_save(input_audio_path, augmented_audio_path):
+    audio, sr = librosa.load(input_audio_path)
+    audio = np.expand_dims(audio,axis=(0,1))
+    audio = torch.tensor(audio, device="cuda")
+    apply_augmentation = Compose(
+        transforms=[
+            Gain(
+                min_gain_in_db=-15.0,
+                max_gain_in_db=5.0,
+                p=0.35,
+            ),
+            AddColoredNoise(p=0.25),
+            PitchShift(p=0.5, sample_rate=sr),
+        ]
+    )
+    perturbed_audio_samples = apply_augmentation(audio, sample_rate=sr)
+    perturbed_audio_samples = np.squeeze(np.array(perturbed_audio_samples.cpu()))
+    sf.write(augmented_audio_path,perturbed_audio_samples,samplerate=sr)
