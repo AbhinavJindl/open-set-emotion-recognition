@@ -9,6 +9,19 @@ from scipy.io import wavfile
 from torch_audiomentations import Compose, Gain, AddColoredNoise, PitchShift, PeakNormalization
 import torch
 import soundfile as sf
+import pickle
+
+
+def save_data_using_pickle(data, filename):
+    with open(filename, 'wb') as f:
+        pickle.dump(data, f, protocol=pickle.HIGHEST_PROTOCOL)
+
+
+def load_data_using_pickle(filename):
+    with open(filename, 'rb') as f:
+        b = pickle.load(f)
+    return b
+
 
 def create_spectrogram_helper(filename, audio_file_path, output_file_path):
     y, sr = librosa.load(audio_file_path)
