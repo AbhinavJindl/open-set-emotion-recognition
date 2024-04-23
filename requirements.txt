@@ -13,3 +13,6 @@ av
 transformers
 sentence-transformers
 torch_audiomentations
+Cython
+libmr
+torchosr
